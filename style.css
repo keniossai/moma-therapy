@@ -1,13 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
 }
 
 header{
     padding: 25px 80px;
 }
 
-.wrapper{
+.site-wrapper{
     background-image: url('./images/bg-1.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,14 +95,14 @@ header{
 }
 
 .black-card{
+    top: 120px;
     position: relative;
-    top: 150px;
+    /* margin-top: 50px; */
 }
 
 .info-section{
     padding: 20px;
     margin-top: 40px;
-    background-color: #000;
     position: relative;
     height: 280px;
     border-radius: 10px;
@@ -124,18 +129,21 @@ header{
     font-size: 14px;
     font-weight: 200;
 }
-.info-section .icon{
-    padding: 15px 20px;
-    align-items: center;
-    margin: 0px 25px;
+.time{
+    width: 280px;
+    height: 50px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    background-color: #ffffff68;
     border-radius: 5px;
-    background-color: aliceblue;
 }
+
 
 .info-section .icon i{
     color: #911439;
 }
-.container input{
+.container .input-check{
     width: 380px;
     height: 50px;
     padding: 5px 20px;
@@ -151,7 +159,7 @@ header{
 }
 
 
- .booking-section .booking-button{
+ .booking-button{
     width: 300px;
     height: 50px;
     background-color: #911439;
@@ -160,4 +168,47 @@ header{
     font-weight: 600;
     display: block;
     border-radius: 5px;
+}
+
+
+.about-section{
+    height: 100vh;
+}
+
+.about-section .about-info .about-content{
+    padding-top: 300px;
+}
+.about-section .about-info .about-content h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 500;
+    padding: 30px 0px;
+}
+.about-content h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.about-content h2{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 500;
+
+}
+
+.about-content p{
+    color: white;
+    font-weight: 200;
+    width: 300px;
+}
+
+.product-section{
+    background-color: #000;
+}
+
+.product-section h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
 }
