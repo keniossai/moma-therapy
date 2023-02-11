@@ -1,0 +1,25 @@
+{
+  "name": "momaa",
+  "version": "1.0.0",
+  "description": "Therapy app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/keniossai/moma-therapy.git"
+  },
+  "keywords": [
+    "moma"
+  ],
+  "author": "ken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keniossai/moma-therapy/issues"
+  },
+  "homepage": "https://github.com/keniossai/moma-therapy#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
