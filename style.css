@@ -740,3 +740,76 @@ header{
     transition: 400ms ease;
     transition-property: color, left;
   }
+
+  .video-modal{
+    background-image: url('./images/bg-00.png');
+    height: 100vh;
+  }
+
+  .video-modal .play-screen{
+    background-image: url(./images/teams/video.png);
+    height: 500px;
+    width: 1000px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -420;
+  }
+
+  .play-screen .play_button{
+    position: relative;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    border: 5px solid #7e371b4c;
+    border-radius: 50%;
+  }
+
+  .play-screen .btn-close{
+    background-color: white;
+  }
+
+  .play-screen .btn-primary{
+    background-color: #7E371B;
+  }
+
+  .play-screen .btn-primary:hover{
+    background-color: #911439;
+    border: 5px solid #FF6628;
+  }
+
+  .video-modal .bottom-content{
+    position: relative;
+    top: 100px;
+    color: white;
+    justify-content: space-between;
+  }
+
+  .video-modal .bottom-content h1{
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+
+  .video-modal .bottom-content p{
+    font-weight: lighter;
+    font-size: 16px;
+    width: 400px;
+  }
+
+  .bottom-content .video-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #911439;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .bottom-content .video-button:hover{
+    background-color: #FF6628;
+    transition: all -2ms ease-out;
+  }
