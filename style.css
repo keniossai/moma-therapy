@@ -375,6 +375,13 @@ header{
     font-size: 45px;
     font-weight: 600;
 }
+
+.product-header p{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    align-items: center;
+}
 .product-section .card-body{
     padding: 20px;
 }
@@ -389,6 +396,35 @@ header{
     font-weight: 800;
 }
 
+.card-body .card-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body .ratings span{
+    /* display: flex; */
+    /* padding: 8px 0px; */
+    font-size: 12px;
+}
+
+.card-body .user-description{
+    font-size: 12px;
+}
+
+.card-body .book-user-button a{
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.card-body .book-user-button a:hover{
+    background-color: #911439;
+    border: 1px solid #911439;
+}
+
+.card-body .ratings i{
+    color: #911439;
+    /* background-color: #911439; */
+}
 /* Experience */
 .experience{
     height: 70vh;
@@ -485,7 +521,7 @@ header{
     width: 100%;
     text-align: left;
     margin: 0 0 30px;
-    max-width: 370px;
+    max-width: 390px;
     min-height: 236px;
     background-color: white;
     box-shadow: 0 0 5px rgba(2, 3, 3, 0.1);
