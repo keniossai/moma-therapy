@@ -423,7 +423,22 @@ header{
 
 .card-body .ratings i{
     color: #911439;
+    font-size: 12px;
     /* background-color: #911439; */
+}
+
+.product-section .browse-all{
+    padding-top: 10px;
+}
+
+.product-section .view-more a{
+    text-decoration: none;
+    padding: 14px 27px;
+    background-color: #911439;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 300;
 }
 /* Experience */
 .experience{
