@@ -530,7 +530,7 @@ header{
   }
   
   .site-services .site-box:hover h3, .site-services .site-box:hover h3 a {
-    color: #4543d0;
+    color: #911439;
   }
   
   .site-services .site-box:hover figure {
@@ -551,6 +551,24 @@ header{
     left: 100%;
     padding-left: 12px;
   
+  }
+
+  .browse-all{
+    text-decoration: none;
+    width: 180px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #FF6628;
+    transition: all 1ms ease-in;
+    /* display: block; */
+    align-items: center;
+  }
+  .browse-all:hover{
+    background-color: #911439;
+  }
+  .browse-all a{
+    text-decoration: none;
+    color: white;
   }
   
   .site-services .site-box:before {
@@ -580,7 +598,7 @@ header{
     color: #000000;
     font-family: inherit;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2;
     text-transform: inherit;
     margin-top: 5px;
@@ -588,11 +606,14 @@ header{
     transition: 400ms ease;
     transition-property: color;
     letter-spacing:-1px;
+    
   }
   
   .site-services h3 a {
     transition: 400ms ease;
     transition-property: color;
+    text-decoration: none;
+    color: #000;
   }
   
   .site-services p {
