@@ -847,3 +847,105 @@ header{
         padding: 0px !important;
     }
   }
+
+
+  /* Testimonial Section */
+
+.testimonials{
+    height: 80vh;
+    background-color: #252525;
+}
+
+.testimonials .owl-carousel .card{
+    height: 250px;
+    width: 600px;
+    margin: 200px auto;
+
+}
+
+@media screen and (max-width: 767px){
+    .testimonials .owl-carousel .card{
+        width: 330px;
+    }
+}
+
+
+.testimonials .owl-carousel .card img{
+    width: 100px;
+    bottom: 50px;
+    left: 240px;
+    position: relative;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+@media screen and (max-width: 767px){
+    .testimonials .owl-carousel .card img{
+        width: 100px;
+        bottom: 50px;
+        left: 120px;
+        position: relative;
+        border-radius: 50%;
+        z-index: 9999;
+    }
+}
+
+.testimonials .card-body{
+    margin-top: -40px;
+    padding: 0px 20px;
+}
+
+.testimonials .card-body h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.testimonials .card-body span{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.testimonials .card-body p{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-weight: 300;
+    width: 500px;
+}
+
+@media screen and (max-width: 767px){
+    .testimonials .card-body p{
+        /* text-align: center; */
+        margin-left: -13px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .testimonials .card-body p{
+        /* text-align: center; */
+        padding: none;
+        /* margin: auto; */
+        width: 320px;
+    }
+}
+
+.testimonials .effect{
+    position: absolute;
+   
+    width: 400px;
+}
+
+.testimonials .effect img{
+    width: 170%;
+    position: relative;
+    top: 200px;
+    left: 250px;
+    z-index: 9999;
+}
+
+.testimonials .testimonials-title{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}

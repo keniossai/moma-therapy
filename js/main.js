@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
         twitter_slider: $("#tweet-slider"),                   // twitter slider for (tweet section)
         contact_form: $("#contactForm"),
 
-        
+
         statistic_section: function () {
 
             // Initialize the plugin
@@ -110,4 +110,22 @@ jQuery(document).ready(function ($) {
         },
     };
 
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay: true,
+            responsive:{
+                0:{
+                    items:1
+                }
+            }
+        })
+    });
+
+    
+
 });
+
