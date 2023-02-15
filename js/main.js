@@ -115,7 +115,7 @@ jQuery(document).ready(function ($) {
             center: true,
             loop:true,
             margin:10,
-            nav:true,
+            nav:false,
             autoplay: true,
             responsive:{
                 0:{

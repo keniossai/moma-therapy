@@ -949,3 +949,144 @@ header{
     position: relative;
     top: 60px;
 }
+
+/* Pricing CSS Section */
+
+.pricing .pricing-title{
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing .title{
+    text-align: center;
+    padding: 80px;
+}
+.pricing p{
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+}
+
+.card{
+    border: none;
+}
+
+.pricing .card{
+    border: none;
+}
+
+.pricing .card .card-button{
+    display: flex;
+    cursor: pointer;
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+.pricing .card .card-button:is(:hover, :focus) {
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+}
+
+.pricing .card .vip-button{
+    padding: 10px 20px;
+    background-color: #7E371B;
+    text-align: center;
+    width: 245px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pricing .card .vip-button a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.pricing .card .regular-button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #7E371B;
+    text-align: center;
+    width: 245px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pricing .card .regular-button a{
+    color: #7E371B;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+
+.pricing .card-button .icon-regular{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #7E371B;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+.pricing .card-button .icon{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #7d4732;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+.pricing .card .card-body{
+    padding: 20px 50px;
+    align-items: center;
+    margin: auto;
+}
+
+.pricing .card .card-body .all-benefits .benefits{
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.078);
+}
+
+.pricing .card .card-body .all-benefits .benefits i{
+    padding: 5px;
+    background-color: #6bd09a97;
+    color: #357754;
+    border-radius: 50px;
+
+}
+
+.pricing .card .card-body p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.pricing .card .vip{
+    padding: 40px;
+    text-align: center;
+    background-color: #7E371B;
+    color: white;
+}
+.pricing .card .regular{
+    padding: 40px;
+    text-align: center;
+    /* background-color: #7E371B; */
+    color: #000;
+}
+
+.pricing .card .vip p{
+    font-size: 13px;
+}
+
+.pricing .card .vip .amount{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Pricing CSS Style End */
