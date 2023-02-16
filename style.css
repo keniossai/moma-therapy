@@ -1259,17 +1259,88 @@ header{
     border: none;
 }
 
+.contact-section .contact .card .form-group{
+    padding: 5px 0px;
+}
+
+.contact-section .contact .card label{
+    font-size: 13px;
+    font-weight: 200;
+}
+
 .contact-section .contact .card form{
     margin: 40px 50px;
 }
 
-.contact-section .contact .card .form-group input{
+.contact-section .contact .card .form-group .text-field{
     width: 440px;
     height: 50px;
     border: 1px solid #c9c9c9;
     border-radius: 5px;
     margin: auto;
-    padding: 0px 30px;
+    padding: 0px 20px;
     font-size: 15px;
+    font-weight: 200;
+}
+
+.contact-section .contact .card .form-group textarea{
+    width: 100%;
+    height: 150px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.contact-section .contact .card .checkbox{
+    display: flex;
+}
+
+.contact-section .contact .card .checkbox p{
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.contact-section .contact .card .checkbox a{
+    text-decoration: none;
+    color: #7E371B;
+}
+.contact-section .contact .card .message_button{
+    height: 40px;
+    width: 160px;
+    color: #fff;
+    background-color: #7E371B;
+    border-color: #7E371B;
+    border: none;
+    font-size: 13px;
+    font-weight: 200;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+footer{
+    height: 80px;
+    background-color: #252525;
+}
+
+footer .payment_options{
+    padding: 10px 0px;
+}
+
+footer .payment_options img{
+    padding: 0px 15px;
+    width: 100px;
+}
+
+footer .copyright{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+
+footer .copyright a{
+    color: white;
+    text-decoration: none;
     font-weight: 200;
 }
