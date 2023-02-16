@@ -961,10 +961,21 @@ header{
     text-align: center;
     padding: 80px;
 }
+@media screen and (max-width: 767px){
+    .pricing .title{
+        padding: 50px 0px;
+    }
+}
 .pricing p{
     font-size: 17px;
     font-weight: 200;
     color: white;
+}
+
+@media screen and (max-width: 767px){
+    .pricing p{
+        font-size: 13px;
+    }
 }
 
 .card{
@@ -1016,6 +1027,7 @@ header{
     border-bottom-left-radius: 5px;
 }
 
+
 .pricing .card .regular-button a{
     color: #7E371B;
     text-decoration: none;
@@ -1045,6 +1057,12 @@ header{
     padding: 20px 50px;
     align-items: center;
     margin: auto;
+}
+
+@media screen and (max-width: 767px){
+    .pricing .card .card-body{
+        padding: 25px 0px;
+    }
 }
 
 .pricing .card .card-body .all-benefits .benefits{
@@ -1090,3 +1108,168 @@ header{
 }
 
 /* Pricing CSS Style End */
+
+
+/* Join Section CSS */
+
+.join-momma{
+    background-image: url('./images/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+}
+.join-momma .join-moma{
+    padding: 50px 0px;
+}
+
+@media screen and (max-width: 767px){
+    .join-momma .join-moma{
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
+.join-momma .join-moma h1{
+    font-size: 40px;
+    color: white;
+    font-size: bold;
+    padding: 10px 0px;
+}
+
+.join-momma .join-moma p{
+    color: white;
+    width: 500px;
+    font-weight: 200;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 767px){
+    .join-momma .join-moma p{
+        width: 300px;
+    }
+}
+
+.join-momma .join-moma button{
+    width: 200px;
+    height: 40px;
+    color: #7E371B;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+.join-momma .join-moma button:is(:hover, :focus) {
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+}
+/* End Section */
+
+/* Newsletter Section */
+
+.newsletter{
+    background-color: #75AEA4;
+    height: 55vh;
+}
+
+.newsletter .white-border{
+    border: 10px solid white;
+    padding: 50px;
+    margin: 70px auto;
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}
+
+.newsletter .white-border h1{
+    color: white;
+    font-size: 25px;
+}
+
+.newsletter .white-border p{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding: 10px;
+}
+
+.newsletter .white-border input{
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right-color: #7E371B;
+}
+
+.newsletter .white-border button{
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: #7E371B;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/* End Newsletter  */
+
+.contact-section{
+    height: 100vh;
+}
+
+.contact-section .contact .image{
+    position: absolute;
+    z-index: 9999;
+}
+
+.contact-section h1{
+    position: relative;
+    top: 220px;
+    margin: auto;
+    padding: 10px 70px;
+    width: 580px;
+    font-size: 50px;
+    color: black;
+    z-index: 9999;
+}
+
+.contact-section .contact{
+    display: flex;
+    margin: 70px 0px;
+}
+
+.contact-section .contact .card{
+    height: 600px;
+    z-index: 9999;
+    box-shadow: 0px 80.6px 105.701px rgba(51, 51, 51, 0.1);
+    border-radius: 20px;
+    border: none;
+}
+
+.contact-section .contact .card form{
+    margin: 40px 50px;
+}
+
+.contact-section .contact .card .form-group input{
+    width: 440px;
+    height: 50px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0px 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
