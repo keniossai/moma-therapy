@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     outline: none !important;
+
 }
 
 body{
@@ -49,7 +50,18 @@ header{
     color: white;
     font-size: 14px;
     font-weight: 200;
+    margin: 0px 10px;
 }
+
+.navbar-nav .nav-item .nav-link:hover{
+    /* padding: 5px; */
+    border-bottom: 1px solid #7E371B;
+    border-bottom-color: #7E371B;
+    color: #eb6029;
+    /* border-bottom-width: 20px; */
+}
+
+
 @media screen and (max-width: 760px ){
     .navbar-nav-scroll{
         /* height: 75vh !important; */
@@ -151,9 +163,25 @@ header{
     padding: 3rem !important;
 }
 
+.black-card h1{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+}
+
 @media screen and (max-width: 760px ){
     .black-card{
         padding: 20px !important;
+        margin-bottom: 20px;
+    }
+
+    .black-card h1{
+        color: white;
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
     }
 }
 
@@ -679,7 +707,6 @@ header{
   }
   
   .site-services figure {
-    /* Image */
     display:none;
     width: 46px;
     height: 46px;
@@ -1094,7 +1121,6 @@ header{
 .pricing .card .regular{
     padding: 40px;
     text-align: center;
-    /* background-color: #7E371B; */
     color: #000;
 }
 
@@ -1185,9 +1211,21 @@ header{
     text-align: center;
 }
 
+@media screen and (max-width: 767px){
+    .newsletter .white-border{
+        width: 100%;
+    }
+}
+
 .newsletter .white-border h1{
     color: white;
     font-size: 25px;
+}
+
+@media screen and (max-width: 767px){
+    .newsletter .white-border h1{
+        font-size: 18px;
+    }
 }
 
 .newsletter .white-border p{
@@ -1211,6 +1249,14 @@ header{
     border-right-color: #7E371B;
 }
 
+@media screen and (max-width: 767px){
+    .newsletter .white-border input{
+        width: 100%;
+        border-right-color: #fff;
+        border-radius: 5px;
+    }
+}
+
 .newsletter .white-border button{
     width: 170px;
     height: 45px;
@@ -1221,6 +1267,13 @@ header{
     border-top-right-radius: 5px;
     font-size: 15px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 767px){
+    .newsletter .white-border button{
+        border-radius: 5px;
+        margin-top: 4px;
+    }
 }
 
 
@@ -1235,6 +1288,12 @@ header{
     z-index: 9999;
 }
 
+@media screen and (max-width: 767px){
+    .contact-section .contact .image{
+        display: none;
+    }
+}
+
 .contact-section h1{
     position: relative;
     top: 220px;
@@ -1246,9 +1305,26 @@ header{
     z-index: 9999;
 }
 
+@media screen and (max-width: 767px){
+    .contact-section h1{
+        color: white;
+        position: relative;
+        top: -60px;
+        font-size: 25px;
+    }
+}
+
+
+
 .contact-section .contact{
     display: flex;
     margin: 70px 0px;
+}
+
+@media screen and (max-width: 767px){
+    .contact-section .contact{
+        padding: 0px 10px;
+    }
 }
 
 .contact-section .contact .card{
@@ -1259,8 +1335,28 @@ header{
     border: none;
 }
 
+@media screen and (max-width: 767px){
+    .contact-section .contact .card{
+        width: 353px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contact-section .contact .col-md-6{
+        display: none;
+    }
+}
+
+
+
 .contact-section .contact .card .form-group{
     padding: 5px 0px;
+}
+
+@media screen and (max-width: 767px){
+    .contact-section .contact .card .form-group{
+        
+    }
 }
 
 .contact-section .contact .card label{
@@ -1270,6 +1366,12 @@ header{
 
 .contact-section .contact .card form{
     margin: 40px 50px;
+}
+
+@media screen and (max-width: 767px){
+    .contact-section .contact .card form{
+        margin:  30px 20px;
+    }
 }
 
 .contact-section .contact .card .form-group .text-field{
@@ -1282,6 +1384,13 @@ header{
     font-size: 15px;
     font-weight: 200;
 }
+
+@media screen and (max-width: 767px){
+    .contact-section .contact .card .form-group .text-field{
+        width: 100%;
+    }
+}
+
 
 .contact-section .contact .card .form-group textarea{
     width: 100%;
@@ -1319,6 +1428,13 @@ header{
     padding: 10px 0px;
 }
 
+@media screen and (max-width: 767px){
+    .contact-section .contact .card .message_button{
+        width: 100%;
+    }
+}
+
+
 footer{
     height: 80px;
     background-color: #252525;
@@ -1328,9 +1444,24 @@ footer .payment_options{
     padding: 10px 0px;
 }
 
+@media screen and (max-width: 767px){
+    footer .payment_options{
+        padding: 10px 0px;
+        display: none;
+    }
+}
+
+
+
 footer .payment_options img{
     padding: 0px 15px;
     width: 100px;
+}
+
+@media screen and (max-width: 767px){
+    footer .payment_options img{
+        width: 40px;
+    }
 }
 
 footer .copyright{
