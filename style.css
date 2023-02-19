@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     outline: none !important;
-
 }
 
 body{
@@ -54,11 +53,9 @@ header{
 }
 
 .navbar-nav .nav-item .nav-link:hover{
-    /* padding: 5px; */
     border-bottom: 1px solid #7E371B;
     border-bottom-color: #7E371B;
     color: #eb6029;
-    /* border-bottom-width: 20px; */
 }
 
 
@@ -359,43 +356,156 @@ header{
 
 /*  */
 
+.service{
+    background-image: url('./images/service.png');
+    height: 60vh;
+}
 
-/* 
-.about-section{
+.service .service-header{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+.service .service-header h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/******  Service Area CSS *******/
+
+.service-wrapper {
+    background-color: #fff;
     height: 100vh;
 }
 
-.about-section .about-info .about-content{
-    padding-top: 300px;
+.service-wrapper a{
+    text-decoration: none;
 }
-.about-section .about-info .about-content h1{
-    color: #fff;
-    font-size: 65px;
-    font-weight: 500;
-    padding: 30px 0px;
-}
-.about-content h3{
-    color: #fff;
+
+.service-wrapper p{
+    font-weight: lighter;
     font-size: 15px;
-    font-weight: 500;
-
-}
-.about-content h2{
-    color: #fff;
-    font-size: 65px;
-    font-weight: 500;
-
 }
 
-.about-content p{
+@media screen and (max-width: 767px){
+    .service-wrapper{
+        height: 180vh;
+    }
+}
+
+.service-wrapper .col{
+    padding: 20px;
+}
+
+.service-wrapper .col h1{
+    font-weight: bold;
+}
+
+.service-wrapper .col p{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+    .service-wrapper .col p{
+        
+    }
+}
+
+
+.service-wrapper .container .view-button{
+    padding: 15px 50px;
+    background-color: #7E371B;
+    text-decoration: none;
+    border-radius: 6px;
     color: white;
-    font-weight: 200;
-    width: 300px;
-} */
+    font-size: 18px;
+    font-weight: 300;
+}
+  
+  .offer-card {
+    border: none;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 450px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+  @media (max-width: 768px) {
+    .offer-card {
+      min-height: 350px;
+    }
+  }
+  @media (max-width: 420px) {
+    .offer-card {
+      min-height: 300px;
+    }
+  }
+  .offer-card.card-has-bg {
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .offer-card.card-has-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .offer-card.card-has-bg:hover {
+    transform: scale(0.98);
+    box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
+    background-size: 130%;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .offer-card.card-has-bg:hover .card-img-overlay {
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    background: #7E371B;
+    background: linear-gradient(0deg, rgba(4, 69, 114, 0.5) 0%, #044572 100%);
+  }
+  .offer-card .card-footer {
+    background: none;
+    border-top: none;
+  }
+  .offer-card .card-footer .media img {
+    border: solid 3px rgba(255, 255, 255, 0.3);
+  }
+  .offer-card .card-meta {
+    color: #26bd75;
+  }
+  .offer-card .card-body {
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .offer-card:hover {
+    cursor: pointer;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .offer-card:hover .card-body {
+    margin-top: 30px;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .offer-card .card-img-overlay {
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    background: #234f6d;
+    background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #455f71 100%);
+  }
 
+/***** End Service Area CSS  *********/
+
+
+/******* Product Section ************/
 .product-section{
     background-color: #000;
-    /* padding-top: 220px; */
 }
 
 .product-section h1{
@@ -452,7 +562,6 @@ header{
 .card-body .ratings i{
     color: #911439;
     font-size: 12px;
-    /* background-color: #911439; */
 }
 
 .product-section .browse-all{
@@ -468,7 +577,11 @@ header{
     font-size: 14px;
     font-weight: 300;
 }
-/* Experience */
+
+/********* End Product Section **********/
+
+
+/*********** Experience Section ********/
 .experience{
     height: 70vh;
     background: rgb(27, 34, 42);
@@ -512,9 +625,91 @@ header{
     }
 }
 
-/* End Experience */
+/************ End Experience ***********/
 
-/* Services container */
+
+/*************** Therapy  Profile **************/
+
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+
+.profile-card-2 {
+    max-width: 100%;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+/*************** Therapy  Profile **************/
+
+
+/*********** Services container **********/
 .site-services {
     display: block;
     width: 100%;
@@ -524,7 +719,6 @@ header{
   }
   
   .site-services:before {
-    /*  site services top wave bg*/
     content: "";
     position: absolute;
     max-width: 100%;
@@ -546,10 +740,6 @@ header{
     }
   }
   
-  .site-services h1 {
-    /* H1 heading */
-    /*margin-bottom: 100px;*/
-  }
   
   @media screen and (max-width: 767px) {
     .site-services h1 {
@@ -768,6 +958,8 @@ header{
     transition-property: color, left;
   }
 
+  /***** Playback Video Section *********/
+
   .video-modal{
     background-image: url('./images/bg-00.png');
     height: 100vh;
@@ -875,8 +1067,10 @@ header{
     }
   }
 
+  /*********** End Playback Video Section *********/
 
-  /* Testimonial Section */
+
+  /********** Testimonial Section ********/
 
 .testimonials{
     height: 80vh;
@@ -977,7 +1171,7 @@ header{
     top: 60px;
 }
 
-/* Pricing CSS Section */
+/************* Pricing CSS Section *************/
 
 .pricing .pricing-title{
     padding: 80px;
@@ -1133,10 +1327,10 @@ header{
     font-weight: 600;
 }
 
-/* Pricing CSS Style End */
+/*********** Pricing CSS Style End ***********/
 
 
-/* Join Section CSS */
+/********** Join Section CSS **************/
 
 .join-momma{
     background-image: url('./images/background.png');
@@ -1193,9 +1387,9 @@ header{
     box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
     transform: translateY(-8px);
 }
-/* End Section */
+/************ End Join Section ************/
 
-/* Newsletter Section */
+/********** Newsletter Section ***********/
 
 .newsletter{
     background-color: #75AEA4;
@@ -1277,8 +1471,9 @@ header{
 }
 
 
-/* End Newsletter  */
+/************ End Newsletter  ************/
 
+/************* Contact Section Begin  *************/
 .contact-section{
     height: 100vh;
 }
@@ -1434,7 +1629,9 @@ header{
     }
 }
 
+/*********** End Contact Section ***********/
 
+/************* Footer Section Begin  **********/
 footer{
     height: 80px;
     background-color: #252525;
@@ -1475,3 +1672,4 @@ footer .copyright a{
     text-decoration: none;
     font-weight: 200;
 }
+/*********** End Footer Section  ***********/
