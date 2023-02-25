@@ -649,6 +649,8 @@ header{
     border-radius: 10px;
 }
 
+
+
 .profile-card-2 img {
     transition: all linear 0.25s;
     width: 100%;
@@ -705,6 +707,8 @@ header{
 .profile-card-2:hover .profile-icons {
     right: 40px;
 }
+
+
 
 /*************** End Therapist  Profile **************/
 
