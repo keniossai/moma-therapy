@@ -1631,6 +1631,108 @@ header{
 
 /*********** End Contact Section ***********/
 
+/************ Join Moma Form  ***************/
+.registration-form{
+	padding: 50px 8px;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form h3{
+    color: #911439;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.registration-form p{
+    font-size: 14px;
+    font-weight: 400;
+    color: dimgrey;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    border-top: 1px solid #E4E4E4;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.346);
+}
+
+.registration-form .create-account{
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #911439;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.registration-form .social-media{
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #9fadca;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.registration-form .social-icons a{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #5691ff;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.registration-form .social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+/*********** End Join Moma Form **************/
+
 /************* Footer Section Begin  **********/
 footer{
     height: 80px;
@@ -1673,3 +1775,4 @@ footer .copyright a{
     font-weight: 200;
 }
 /*********** End Footer Section  ***********/
+
