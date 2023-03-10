@@ -1809,6 +1809,19 @@ footer .payment_options{
     padding: 10px 0px;
 }
 
+footer .social_media{
+    padding: 30px 40px;
+}
+
+footer .social_media i{
+    padding: 0px 10px;
+    color: white;
+    font-size: 20px;
+}
+footer .social_media i:hover{
+   color: #FF6628;
+}
+
 @media screen and (max-width: 767px){
     footer .payment_options{
         padding: 10px 0px;
